@@ -1,5 +1,24 @@
+export interface ITheme {
+  theme: {
+    bodyBg: string;
+    bodyColor: string;
+
+    modalBg: string;
+    textBg: string;
+    iconBg: string;
+    tagBg: string;
+
+    text: string;
+    inputBorder: string;
+
+    btnBg: string;
+    btnText: string;
+  };
+}
+
 export const lightTheme = {
-  body: "#fff",
+  bodyBg: "#fff",
+  bodyColor: "black",
 
   modalBg: "#fff",
   textBg: "#edf2f9",
@@ -14,7 +33,8 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: "#444b52",
+  bodyBg: "#444b52",
+  bodyColor: "#fff",
 
   modalBg: "#202528",
   textBg: "#141416",
